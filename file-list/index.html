@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A file list for when you need to provide clients with files to view. Contains common files in the modal">
+    <title>File list</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.1.1/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="modal fade" role="dialog" tabindex="-1" id="fileListModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">BRAND files</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col"><span>Contract</span></div>
+                                <div class="col-6 col-sm-4"><a class="btn btn-primary btn-sm" role="button" href="#" download=""><i class="fa fa-download pr-2" style="font-size:12px;"></i>Download</a></div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col"><span>Milestones</span></div>
+                                <div class="col-6 col-sm-4"><a class="btn btn-primary btn-sm" role="button" href="#" download=""><i class="fa fa-download pr-2" style="font-size:12px;"></i>Download</a></div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col"><span>TechSpecs&nbsp;</span></div>
+                                <div class="col-6 col-sm-4"><a class="btn btn-primary btn-sm" role="button" href="#" download=""><i class="fa fa-download pr-2" style="font-size:12px;"></i>Download</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer"><a class="btn btn-primary" role="button" href="#" download="">DOWNLOAD ALL</a><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div style="background-image:url(&quot;https://images.pexels.com/photos/248427/pexels-photo-248427.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=661&amp;w=1280&quot;);height:100vh;background-position:center;background-size:cover;background-repeat:no-repeat;">
+        <div class="d-flex justify-content-center align-items-center" style="height:inherit;min-height:initial;width:100%;position:absolute;left:0;background-color:rgba(77,83,116,0.53);">
+            <div class="d-flex flex-column align-items-center order-12" style="height:200px;">
+                <div class="container">
+                    <h1 class="text-center" style="color:rgb(242,245,248);font-size:56px;font-weight:bold;font-family:Roboto, sans-serif;">BRAND NAME</h1>
+                    <h3 class="text-center" style="color:rgb(242,245,248);padding-top:0.25em;padding-bottom:0.25em;font-weight:normal;">brand description</h3>
+                    <p class="text-center pt-4 pb-4" data-toggle="modal" data-target="#fileListModal"><button class="btn btn-primary btn-lg" type="button">VIEW FILES</button></p>
+                </div>
+                <p style="position:absolute;bottom:1em;">©&nbsp;<a class="text-secondary" href="#">Brand Site</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
